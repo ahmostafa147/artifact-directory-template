@@ -1,5 +1,25 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Radiographic Enhanced Clinical Decision Support System for Early Sepsis Detection and Risk Assessment
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+Sepsis is a life-threatening condition caused by the body’s extreme response
+to an infection. Early detection and intervention are crucial for improving
+patient outcomes. This project aims to develop a radiographic enhanced clin-
+ical decision support system for early sepsis detection and risk assessment.
+The system leverages chest X-ray images and patient metadata to predict the
+probability of sepsis development within specific time frames after the X-ray
+is taken.
+The proposed pipeline consists of two main components: 1) A ResNet model
+that predicts lung anomalies based solely on chest X-ray images, and 2) A
+neural network model that combines the output of the first model with patient
+vitals and other relevant metadata to estimate the likelihood of sepsis onset
+within 1, 2, or 3+ days.
+The project involves extensive data engineering to preprocess and integrate
+the MIMIC-IV and MIMIC-CXR datasets. The team is also building a cloud-
+based infrastructure using AWS services such as S3, ECS, and CloudFront to
+deploy the models and create a user-friendly web interface for demonstration
+and presentation purposes.
+This report focuses on the progress made by the sub-team responsible for
+the radiographic enhanced clinical decision support system, highlighting the
+contributions of Ahmed Mostafa, Boqi (Bobby) Zhu, and Tongxun (Sherry)
+Hu.
